@@ -1307,7 +1307,7 @@ body {
 }
 
 .rk-portfolio-info {
-  margin-top: 4.9rem;
+  margin-top: 2rem;
 }
 
 .rk-portfolio-inner-title {
@@ -1351,8 +1351,23 @@ body {
 
 .item-inside-1 {
   /* background-image: url("../img/project-1.jpg"); */
-  background-position: 50% 100%;
-  background-size: 50%;
+  background-position: center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+          align-items: flex-end;
+  height: 30vh;
+  padding-bottom: 1.5rem;
+  width: 100%;
 }
 
 @media (min-width: 40em) {
