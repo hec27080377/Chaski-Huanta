@@ -31,7 +31,6 @@ export class ItemComponent implements OnInit {
                   this.id = parametros['id'];
                   this.producto = producto;
                   //console.log(producto);
-
               });
           });
   }
