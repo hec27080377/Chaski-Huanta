@@ -1276,7 +1276,7 @@ body {
   padding-bottom: 1.5rem;
   width: 100%;
 }
-@media (min-width: 40em) {
+@media (min-width: 30em) {
   .rk-portfolio-cover {
     padding-bottom: 2.5rem;
   }
