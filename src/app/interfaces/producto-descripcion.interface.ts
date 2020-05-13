@@ -8,4 +8,5 @@ export interface ProductoDescripcion {
   url: string;
   url1: string;
   url2: string;
+  
 }

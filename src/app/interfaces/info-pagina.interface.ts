@@ -9,6 +9,7 @@ export interface InfoPagina {
   facebook?: string;
   twitter?: string;
   tublr?: string;
+  whatsapp?: string;
   'equipo de trabajo'?: any[];
 }
 

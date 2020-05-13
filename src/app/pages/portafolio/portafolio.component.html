@@ -1,6 +1,13 @@
 
     <section class="ae-container-fluid ae-container-fluid--inner rk-portfolio">
 
+      <div>   
+        <h3>Contactos para Servicio de Delivery al: </h3> 
+        <h6>931865370</h6>
+        <h6>O dale Clic aquí al logo del Fono Chaski y Envíanos un mensaje de WhatsApp</h6>
+        <h6> <a href="https://wa.me/51992121765?text=Quiero%20realizar%20pedido%20de%20delivery" target="_blank"><img src="../../../assets/img/chaski.jpg" alt="" /></a>  </h6>
+      </div>
+
       <!-- 1 -->
 
       <div align="center" *ngIf="productosService.cargando">
@@ -33,14 +40,15 @@ Espere por favor
 
       </div>
 
-
-
+    
+    
+  
 
 
     
       <div *ngIf="!productosService.cargando"
       class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4">
-        
+    
         <a *ngFor="let producto of productosService.productos"
          [routerLink]="['/item', producto.cod]" class="animated fadeIn rk-item ae-masonry__item">
           <img [src]="producto.url" alt="">

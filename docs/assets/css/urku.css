@@ -41,7 +41,7 @@ body {
 
 .rk-main {
   z-index: 1;
-  position: static;
+  position: initial;
 }
 .top-fixed .rk-main {
   padding-top: 8.5rem;
@@ -209,7 +209,7 @@ body {
 }
 .rk-mobile-menu:checked + label,
 .rk-mobile-menu + label:hover {
-  color: #a0a0a0;
+  color: #d61616;
 }
 .rk-mobile-menu:checked + label svg:nth-of-type(1) {
   -webkit-transform: rotate(45deg);
@@ -534,7 +534,7 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(255, 255, 255, .75);
+  background-color: #caaa26b8;
   bottom: 0;
   color: #202020;
   display: -webkit-box;
@@ -1351,7 +1351,7 @@ body {
 
 .item-inside-1 {
   /* background-image: url("../img/project-1.jpg"); */
-  background-position: center center;
+  background-position: cover;
   background-size: cover;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1989,7 +1989,7 @@ body {
   padding-right: 0;
 }
 .rk-menu__item.active {
-  color: #a0a0a0;
+  color: #bf3434;
 }
 .rk-menu__link {
   padding-bottom: 4.2rem;
@@ -2061,7 +2061,7 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
             justify-content: center;
-    background-color: rgba(255, 255, 255, .95);
+    background-color: #fafafad4;
     overflow: auto;
   }
   #mobile-menu:checked ~ .rk-topbar .rk-menu {
@@ -2180,3 +2180,10 @@ body {
 .rk-light-color {
   color: #787878;
 }
+
+
+
+
+
+
+
