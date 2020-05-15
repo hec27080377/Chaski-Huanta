@@ -77,8 +77,8 @@ body {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 3.3rem;
-  padding-top: 2.8rem;
+  padding-bottom: 0.3rem;
+  padding-top: 2.0rem;
 }
 @media (min-width: 64em) {
   .rk-topbar {
@@ -229,7 +229,7 @@ body {
 }
 
 .rk-footer {
-  margin-top: 10.5rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -1307,7 +1307,7 @@ body {
 }
 
 .rk-portfolio-info {
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
 
 .rk-portfolio-inner-title {
