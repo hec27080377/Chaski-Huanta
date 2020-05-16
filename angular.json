@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/portafolio",
+            "outputPath": "dist/publicidadhuanta",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "portafolio:build"
+            "browserTarget": "publicidadhuanta:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "portafolio:build:production"
+              "browserTarget": "publicidadhuanta:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "portafolio:build"
+            "browserTarget": "publicidadhuanta:build"
           }
         },
         "test": {
@@ -110,18 +110,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "portafolio:serve"
+            "devServerTarget": "publicidadhuanta:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "portafolio:serve:production"
+              "devServerTarget": "publicidadhuanta:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "portafolio",
+  "defaultProject": "Publicidad Huanta",
   "cli": {
     "analytics": "8c3ab554-d972-4a63-ac69-f4e4266e4295"
   }
